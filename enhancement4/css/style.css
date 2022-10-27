@@ -1,0 +1,80 @@
+
+html {
+    background-image: url("../images/site/small_check.jpg");
+}
+
+body{
+    font-family: "Trirong", serif;
+    max-width: 1500px;
+    /*width: 100%;*/
+    background-color: #fafafa;
+    margin: auto;
+    border-style: solid;
+    border-color: #4c96d7;
+    border-radius: 10px;
+    padding: 1.5em;
+    margin-top: 10px;
+}
+
+div.container{
+    display: flex;
+    width: 100%;
+}
+
+.item2{
+    text-align: right;
+    flex-grow: 4;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.item2 a{
+    text-decoration: none;
+    text-align: right;
+    font-size: 18px;
+    color: #3a3a3a;
+}
+
+nav{
+    background: #3a3a3a;
+    font-family: "Trirong", serif;
+    width: 100%;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0px 2px;
+    font-size: 14px;
+}
+
+nav ul li a {
+    width: 100%;
+	display: block;
+	color: #fafafa;
+	/*padding:10px 20px;*/
+    align-items: center;
+	text-decoration: none;
+	border-radius:3px;
+	transition:all 300ms ease;
+}
+
+a:active {
+    background-color: #4c96d7;
+    color: #3a3a3a;
+}
+
+a:hover {
+    background-color: #4c96d7;
+    color: #3a3a3a;
+}
+
+h1, h2, h3 {
+    font-family: "Trirong", serif;
+}
+
+footer p {
+	text-align:center;
+    border-top: solid;
+    border-color: #3a3a3a;
+    padding-top: 20px;
+}

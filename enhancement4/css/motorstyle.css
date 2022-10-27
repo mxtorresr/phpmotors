@@ -1,0 +1,208 @@
+
+html {
+    background-image: url("../images/site/small_check.jpg");
+}
+
+body{
+    font-family: "Trirong", serif;
+    max-width: 1500px;
+    background-color: #fafafa;
+    margin: auto;
+    border-style: solid;
+    border-color: #4c96d7;
+    border-radius: 10px;
+    padding: 1.5em;
+    margin-top: 10px;
+}
+
+div.container{
+    display: flex;
+    width: 100%;
+}
+
+.item2{
+    text-align: right;
+    flex-grow: 4;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.item2 a{
+    text-decoration: none;
+    text-align: right;
+    font-size: 18px;
+    color: #3a3a3a;
+}
+
+nav{
+    background: #3a3a3a;
+    font-family: "Trirong", serif;
+    width: 100%;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0px 2px;
+    font-size: 14px;
+}
+
+nav ul li a {
+    width: 100%;
+	display: block;
+	color: #fafafa;
+    align-items: center;
+	text-decoration: none;
+	border-radius:3px;
+	transition:all 300ms ease;
+}
+
+a:active {
+    background-color: #4c96d7;
+    color: #3a3a3a;
+}
+
+a:hover {
+    background-color: #4c96d7;
+    color: #3a3a3a;
+}
+
+h1, h2, h3 {
+    font-family: "Trirong", serif;
+    font-size: 24px;
+}
+
+footer p {
+	text-align:center;
+    border-top: solid;
+    border-color: #3a3a3a;
+    padding-top: 20px;
+}
+
+.uppercontent{
+    width: 100%;
+}
+
+img.delorean{
+    width: 100%;
+}
+
+
+a:active {
+    background-color: #4c96d7;
+    color: #3a3a3a;
+}
+
+p.cardescription{
+    color: #4c96d7;
+    line-height: 1;
+}
+
+.owntoday{
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.reviewscontainer {
+    margin: auto;
+    line-height: 1;
+}
+
+.reviewscontainer p{
+    width: 100%;
+    font-weight: 600;
+}
+
+.upgradescontainer p{
+    width: 100%;
+    font-weight: bold;
+
+}
+
+.grid{
+    display: flex;
+}
+
+
+.icon{
+    background-color: #4c96d7;
+    border: solid #000;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+figure{
+    position: relative;
+}
+
+.item{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.caption{
+    text-align: center;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+
+
+/*CSS FOR SCREEN LARGER THAT 800 PX*/
+@media screen and (min-width: 768px) {
+nav ul li{
+    width: 80px;
+    height: 40px;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+p.cardescription{
+    line-height: 1.5;
+    font-size: 20px;
+    color: blue;
+}
+
+.owntoday{
+    width: auto;
+}
+
+.uppercontent{
+    display: flex;
+    flex-direction: column;
+}
+
+.uppercontent .first{
+    order: 1;
+}
+
+.uppercontent .second{
+    align-self: start;
+}
+
+.flexcont{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+
+.reviewscontainer ul{
+    line-height: 2;
+    align-items: stretch;
+}
+
+
+/* .container{
+    display: flex;
+    flex-direction: row;
+} */
+}
