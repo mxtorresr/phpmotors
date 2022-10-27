@@ -41,7 +41,7 @@ $action = filter_input(INPUT_POST, 'action');
         include '../view/add-classification.php';
         break;
 
- //from gonzalos code
+ //
     case 'add-vehicle':
         include '..view/add-vehicle.php';
         break;
@@ -63,7 +63,7 @@ $action = filter_input(INPUT_POST, 'action');
         exit;
         };
         break;
-//end of gonzalos code   
+//   
 
 //filter and store data
     case 'addvehicles':
